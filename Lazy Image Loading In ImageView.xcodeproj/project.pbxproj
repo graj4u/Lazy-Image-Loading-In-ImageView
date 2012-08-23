@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9B3D68815E6296D00B14E05 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B3D68715E6296D00B14E05 /* UIKit.framework */; };
+		B9B3D68A15E6296D00B14E05 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B3D68915E6296D00B14E05 /* Foundation.framework */; };
+		B9B3D68C15E6296D00B14E05 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B3D68B15E6296D00B14E05 /* CoreGraphics.framework */; };
+		B9B3D69215E6296D00B14E05 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9B3D69015E6296D00B14E05 /* InfoPlist.strings */; };
+		B9B3D69415E6296D00B14E05 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B3D69315E6296D00B14E05 /* main.m */; };
+		B9B3D69815E6296D00B14E05 /* GRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B3D69715E6296D00B14E05 /* GRAppDelegate.m */; };
+		B9B3D69B15E6296D00B14E05 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B3D69915E6296D00B14E05 /* MainStoryboard_iPhone.storyboard */; };
+		B9B3D69E15E6296D00B14E05 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B3D69C15E6296D00B14E05 /* MainStoryboard_iPad.storyboard */; };
+		B9B3D6A115E6296D00B14E05 /* GRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B3D6A015E6296D00B14E05 /* GRViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9B3D68315E6296D00B14E05 /* Lazy Image Loading In ImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lazy Image Loading In ImageView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B3D68715E6296D00B14E05 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9B3D68915E6296D00B14E05 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9B3D68B15E6296D00B14E05 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9B3D68F15E6296D00B14E05 /* Lazy Image Loading In ImageView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lazy Image Loading In ImageView-Info.plist"; sourceTree = "<group>"; };
+		B9B3D69115E6296D00B14E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9B3D69315E6296D00B14E05 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9B3D69515E6296D00B14E05 /* Lazy Image Loading In ImageView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lazy Image Loading In ImageView-Prefix.pch"; sourceTree = "<group>"; };
+		B9B3D69615E6296D00B14E05 /* GRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRAppDelegate.h; sourceTree = "<group>"; };
+		B9B3D69715E6296D00B14E05 /* GRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRAppDelegate.m; sourceTree = "<group>"; };
+		B9B3D69A15E6296D00B14E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		B9B3D69D15E6296D00B14E05 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		B9B3D69F15E6296D00B14E05 /* GRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GRViewController.h; sourceTree = "<group>"; };
+		B9B3D6A015E6296D00B14E05 /* GRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GRViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9B3D68015E6296D00B14E05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B3D68815E6296D00B14E05 /* UIKit.framework in Frameworks */,
+				B9B3D68A15E6296D00B14E05 /* Foundation.framework in Frameworks */,
+				B9B3D68C15E6296D00B14E05 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9B3D67815E6296D00B14E05 = {
+			isa = PBXGroup;
+			children = (
+				B9B3D68D15E6296D00B14E05 /* Lazy Image Loading In ImageView */,
+				B9B3D68615E6296D00B14E05 /* Frameworks */,
+				B9B3D68415E6296D00B14E05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9B3D68415E6296D00B14E05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9B3D68315E6296D00B14E05 /* Lazy Image Loading In ImageView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9B3D68615E6296D00B14E05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9B3D68715E6296D00B14E05 /* UIKit.framework */,
+				B9B3D68915E6296D00B14E05 /* Foundation.framework */,
+				B9B3D68B15E6296D00B14E05 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9B3D68D15E6296D00B14E05 /* Lazy Image Loading In ImageView */ = {
+			isa = PBXGroup;
+			children = (
+				B9B3D69615E6296D00B14E05 /* GRAppDelegate.h */,
+				B9B3D69715E6296D00B14E05 /* GRAppDelegate.m */,
+				B9B3D69915E6296D00B14E05 /* MainStoryboard_iPhone.storyboard */,
+				B9B3D69C15E6296D00B14E05 /* MainStoryboard_iPad.storyboard */,
+				B9B3D69F15E6296D00B14E05 /* GRViewController.h */,
+				B9B3D6A015E6296D00B14E05 /* GRViewController.m */,
+				B9B3D68E15E6296D00B14E05 /* Supporting Files */,
+			);
+			path = "Lazy Image Loading In ImageView";
+			sourceTree = "<group>";
+		};
+		B9B3D68E15E6296D00B14E05 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9B3D68F15E6296D00B14E05 /* Lazy Image Loading In ImageView-Info.plist */,
+				B9B3D69015E6296D00B14E05 /* InfoPlist.strings */,
+				B9B3D69315E6296D00B14E05 /* main.m */,
+				B9B3D69515E6296D00B14E05 /* Lazy Image Loading In ImageView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9B3D68215E6296D00B14E05 /* Lazy Image Loading In ImageView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B3D6A415E6296D00B14E05 /* Build configuration list for PBXNativeTarget "Lazy Image Loading In ImageView" */;
+			buildPhases = (
+				B9B3D67F15E6296D00B14E05 /* Sources */,
+				B9B3D68015E6296D00B14E05 /* Frameworks */,
+				B9B3D68115E6296D00B14E05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lazy Image Loading In ImageView";
+			productName = "Lazy Image Loading In ImageView";
+			productReference = B9B3D68315E6296D00B14E05 /* Lazy Image Loading In ImageView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9B3D67A15E6296D00B14E05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GR;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Gaurav Raj";
+			};
+			buildConfigurationList = B9B3D67D15E6296D00B14E05 /* Build configuration list for PBXProject "Lazy Image Loading In ImageView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9B3D67815E6296D00B14E05;
+			productRefGroup = B9B3D68415E6296D00B14E05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9B3D68215E6296D00B14E05 /* Lazy Image Loading In ImageView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9B3D68115E6296D00B14E05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B3D69215E6296D00B14E05 /* InfoPlist.strings in Resources */,
+				B9B3D69B15E6296D00B14E05 /* MainStoryboard_iPhone.storyboard in Resources */,
+				B9B3D69E15E6296D00B14E05 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9B3D67F15E6296D00B14E05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B3D69415E6296D00B14E05 /* main.m in Sources */,
+				B9B3D69815E6296D00B14E05 /* GRAppDelegate.m in Sources */,
+				B9B3D6A115E6296D00B14E05 /* GRViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9B3D69015E6296D00B14E05 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9B3D69115E6296D00B14E05 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9B3D69915E6296D00B14E05 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9B3D69A15E6296D00B14E05 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		B9B3D69C15E6296D00B14E05 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9B3D69D15E6296D00B14E05 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9B3D6A215E6296D00B14E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9B3D6A315E6296D00B14E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9B3D6A515E6296D00B14E05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lazy Image Loading In ImageView/Lazy Image Loading In ImageView-Prefix.pch";
+				INFOPLIST_FILE = "Lazy Image Loading In ImageView/Lazy Image Loading In ImageView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9B3D6A615E6296D00B14E05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lazy Image Loading In ImageView/Lazy Image Loading In ImageView-Prefix.pch";
+				INFOPLIST_FILE = "Lazy Image Loading In ImageView/Lazy Image Loading In ImageView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9B3D67D15E6296D00B14E05 /* Build configuration list for PBXProject "Lazy Image Loading In ImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B3D6A215E6296D00B14E05 /* Debug */,
+				B9B3D6A315E6296D00B14E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B3D6A415E6296D00B14E05 /* Build configuration list for PBXNativeTarget "Lazy Image Loading In ImageView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B3D6A515E6296D00B14E05 /* Debug */,
+				B9B3D6A615E6296D00B14E05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9B3D67A15E6296D00B14E05 /* Project object */;
+}
