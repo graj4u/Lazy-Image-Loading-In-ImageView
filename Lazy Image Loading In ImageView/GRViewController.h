@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ImageLoaderController.h"
 
-@interface GRViewController : UIViewController
+@interface GRViewController : UIViewController <ImageLoaderProtocol>
+
+@property (retain, nonatomic) IBOutlet UIImageView *myImageView;
+@property (retain, nonatomic) IBOutlet UIActivityIndicatorView *myActivityIndicator;
 
 @end
