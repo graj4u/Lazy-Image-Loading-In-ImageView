@@ -28,6 +28,8 @@
     [self.myActivityIndicator startAnimating];
 }
 
+
+
 - (void)viewDidUnload
 {
     [self setMyImageView:nil];
@@ -35,6 +37,8 @@
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
+
+
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
@@ -44,6 +48,8 @@
         return YES;
     }
 }
+
+
 
 - (void)imageLoader:(ImageLoaderController *)imageLoader didReceieveError:(NSError *)anError {
     
